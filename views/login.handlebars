@@ -1,0 +1,18 @@
+<img class="cucumber" src="cucumber.png" alt="">
+
+<h1 class="title">please log in</h1>
+
+{{#if errorthree}}
+
+    <p class="tryagain">something went wrong, please try again</p>
+
+{{/if}}
+
+<form method="POST" action="/login">
+    <input class= "email" type="email" name="email" autocomplete="off">
+    <input class= "password" type="password" name="password" autocomplete="off">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button id="login" class="signup" type="submit" name="login">log in</button>
+    <p class="emailtext">email</p>
+    <p class="passwordtext">password</p>
+</form>

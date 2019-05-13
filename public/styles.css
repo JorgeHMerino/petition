@@ -1,0 +1,495 @@
+* {
+    background: white;
+}
+
+.title {
+    color: green;
+    font-family: tahoma;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title2 {
+    color: green;
+    font-family: tahoma;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cucumber {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 25px;
+}
+
+.first {
+    position: absolute;
+    top: 430px;
+    left: 500px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.last {
+    position: absolute;
+    top: 430px;
+    left: 750px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.sig {
+    border: 2px solid darkgreen;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+.button {
+    position: absolute;
+    left: 700px;
+    top: 650px;
+    color: midnightblue;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+.firsttext {
+    position: absolute;
+    left: 560px;
+    top: 445px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.lasttext {
+    position: absolute;
+    left: 825px;
+    top: 445px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.firma {
+    position: absolute;
+    left: 650px;
+    top: 590px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.pepino {
+    position: absolute;
+    top: 450px;
+    left: 670px;
+    font-family: tahoma;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.tryagain {
+    position: absolute;
+    color: darkgreen;
+    font-family: tahoma;
+    font-size: 18px;
+    top: 565px;
+    left: 800px;
+}
+
+.first2 {
+    position: absolute;
+    top: 430px;
+    left: 500px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.last2 {
+    position: absolute;
+    top: 430px;
+    left: 750px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.email {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.password {
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.firsttext2 {
+    position: absolute;
+    left: 560px;
+    top: 445px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.lasttext2 {
+    position: absolute;
+    left: 825px;
+    top: 445px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.emailtext {
+    position: absolute;
+    left: 575px;
+    top: 515px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.passwordtext {
+    position: absolute;
+    left: 825px;
+    top: 515px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.signup {
+    position: absolute;
+    left: 660px;
+    top: 580px;
+    color: midnightblue;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+.alreadyamember {
+    position: absolute;
+    color: darkgreen;
+    font-family: tahoma;
+    font-size: 18px;
+    top: 600px;
+    left: 525px;
+}
+
+.already {
+    position: absolute;
+    color: darkgreen;
+    font-family: tahoma;
+    font-size: 18px;
+    top: 630px;
+    left: 855px;
+}
+
+.sigi {
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    border: 1px solid black;
+}
+
+.age {
+    position: absolute;
+    top: 450px;
+    left: 630px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.city {
+    position: absolute;
+    top: 500px;
+    left: 630px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.homepage {
+    position: absolute;
+    top: 550px;
+    left: 630px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.continue {
+    position: absolute;
+    left: 670px;
+    top: 620px;
+    color: midnightblue;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+.titlesecond {
+    position: absolute;
+    color: midnightblue;
+    font-family: tahoma;
+    font-size: 30px;
+    top: 250px;
+    left: 850px;
+}
+
+.thelist {
+    color: green;
+    font-family: tahoma;
+    font-size: 25px;
+    top: 450px;
+    left: 630px;
+    margin: 0px;
+    line-height: 0;
+}
+
+.listcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: green;
+    font-family: tahoma;
+    font-size: 25px;
+}
+
+.cucumber2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding: 25px;
+}
+
+.firstnamepf {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+.lastnamepf {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.emailpf {
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.passwordpf {
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.agepf {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.citypf {
+    position: absolute;
+    top: 550px;
+    left: 700px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.urlpf {
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.update {
+    position: absolute;
+    left: 650px;
+    top: 660px;
+    color: midnightblue;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+.firstnametextpf {
+    position: absolute;
+    left: 580px;
+    top: 290px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.lastnametextpf {
+    position: absolute;
+    left: 580px;
+    top: 340px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.emailtextpf {
+    position: absolute;
+    left: 580px;
+    top: 390px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.passwordtextpf {
+    position: absolute;
+    left: 580px;
+    top: 440px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.agetextpf {
+    position: absolute;
+    left: 580px;
+    top: 490px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.citytextpf {
+    position: absolute;
+    left: 580px;
+    top: 540px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.urltextpf {
+    position: absolute;
+    left: 580px;
+    top: 590px;
+    font-family: tahoma;
+    color: darkgreen;
+}
+
+.thesigners {
+    position: absolute;
+    color: darkgreen;
+    font-family: tahoma;
+    font-size: 20px;
+    top: 570px;
+    left: 650px;
+}
+
+.toedit {
+    position: absolute;
+    color: darkgreen;
+    font-family: tahoma;
+    font-size: 20px;
+    top: 610px;
+    left: 650px;
+}
+
+.todelete {
+    position: absolute;
+    color: darkgreen;
+    font-family: tahoma;
+    font-size: 20px;
+    top: 650px;
+    left: 620px;
+}
+
+.logout {
+    position: absolute;
+    color: midnightblue;
+    font-family: tahoma;
+    font-size: 20px;
+    top: 20px;
+    left: 800px;
+}

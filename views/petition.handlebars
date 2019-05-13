@@ -1,0 +1,19 @@
+<h1 class="title">sign this petition to stop wrapping cucumbers with plastic</h1>
+
+<img class="cucumber" src="cucumber.png" alt="">
+
+{{#if error}}
+
+    <p class="tryagain">oops! something went wrong, please try again</p>
+
+{{/if}}
+
+<form class="form" action="/petition" method="post">
+    <input id="input" name="signature" value= "1" type="hidden">
+    <canvas id="canvas" class="sig" width="450px" height="100px"> </canvas>
+    <input id="input" name="_csrf" type="hidden" value="{{csrfToken}}">
+    <p class="firma">your signature goes here<p>
+    <button id="register" class="button" type="submit" name="button">submit</button>
+</form>
+
+<script type="text/javascript" src="script.js"></script>

@@ -1,0 +1,25 @@
+<img class="cucumber2" src="cucumber.png" alt="">
+
+<h1 class="title">edit your profile here</h1>
+
+{{# populate}}
+<form method="POST" action="editprofile">
+    <input value="{{firstname}}" class="firstnamepf" type="text" name="firstname" autocomplete="off">
+    <input value="{{lastname}}" class="lastnamepf" type="text" name="lastname" autocomplete="off">
+    <input value="{{email}}" class="emailpf" type="text" name="email" autocomplete="off">
+    <input class="passwordpf" type="password" name="password" autocomplete="off">
+    <input value="{{age}}" class="agepf" type="text" name="age" autocomplete="off">
+    <input value="{{city}}" class="citypf" type="text" name="city" autocomplete="off">
+    <input value="{{url}}" class="urlpf" type="text" name="url" autocomplete="off">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button id="update" class="update" type="submit" name="update">update</button>
+
+    <p class="firstnametextpf">first name:</p>
+    <p class="lastnametextpf">last name:</p>
+    <p class="emailtextpf">email:</p>
+    <p class="passwordtextpf">password:</p>
+    <p class="agetextpf">age:</p>
+    <p class="citytextpf">city:</p>
+    <p class="urltextpf">url:</p>
+</form>
+{{/ populate}}

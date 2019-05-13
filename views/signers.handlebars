@@ -1,0 +1,18 @@
+<img class="cucumber" src="/cucumber.png" alt="">
+
+<h1 class="title">cucumber supporters:</h1>
+
+<div class="listcontainer">
+
+    {{# signerslist}}
+
+        <li>{{firstname}}  {{lastname}} {{age}} <a href="/signers/{{city}}">{{city}}</a> </li>
+
+    {{/signerslist}}
+
+</div>
+
+<form method="POST" action="/logout">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class="logout" type="submit" name="logout">log out</button>
+</form>

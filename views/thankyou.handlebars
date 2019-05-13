@@ -1,0 +1,14 @@
+<h1 class="title2">thank you for your participation!</h1>
+
+<img class="sigi" src= {{ canvasUrl }}>
+
+<img class="cucumber" src="cucumber.png" alt="">
+
+<a class="thesigners" href="/signers">see all {{ countSigners }} signers</a>
+
+<a class="toedit" href="/editprofile">edit your profile</a>
+
+<form method="POST" action="/delete">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class="todelete" type="submit" name="todelete">delete your signature</button>
+</form>

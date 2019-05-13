@@ -1,0 +1,17 @@
+<img class="cucumber" src="cucumber.png" alt="">
+
+<h1 class="title">please share some additional details about yourself</h1>
+
+{{#if errorfour}}
+
+    <p class="tryagain">something went wrong, please try again</p>
+
+{{/if}}
+
+<form method="POST" action="">
+    <input class= "age" type= "text" name= "age" placeholder="age" autocomplete="off">
+    <input class= "city" type= "text" name= "city" placeholder="city" autocomplete="off">
+    <input class= "homepage" type= "text" name= "homepage" placeholder="homepage" autocomplete="off">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button id="continue" class="continue" type="submit" name="continue">continue</button>
+</form>

@@ -1,0 +1,24 @@
+<img class="cucumber" src="cucumber.png" alt="">
+<h1 class="title">sign this petition to stop wrapping cucumbers with plastic!</h1>
+<h1 class="titlesecond">join the cucumber campaign now!</h1>
+
+{{#if errortwo}}
+
+    <p class="tryagain">something went wrong, please try again</p>
+
+{{/if}}
+
+<form method="POST" action="/register">
+    <input class= "first2" type="text" name="firstname" autocomplete="off">
+    <input class= "last2" type="text" name="lastname" autocomplete="off">
+    <input class= "email" type="email" name="email" autocomplete="off">
+    <input class= "password" type="password" name="password" autocomplete="off">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button id="signup" class="signup" type="submit" name="signup">sign up</button>
+    <p class="firsttext2">first name</p>
+    <p class="lasttext2">last name</p>
+    <p class="emailtext">email</p>
+    <p class="passwordtext">password</p>
+</form>
+
+<h5 class="alreadyamember">if you are already a member, please </h5> <a class="already" href="/login">log in</a>
