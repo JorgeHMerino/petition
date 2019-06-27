@@ -13,7 +13,7 @@ app.set("view engine", "handlebars");
 app.use(
     cookieSession({
         secret: `I'm always happy.`,
-        maxAge: 1000 * 60 * 60 * 24 * 7 * 2
+        maxAge: 1000 * 60 * 60 * 24 * 7 * 1
     })
 );
 
